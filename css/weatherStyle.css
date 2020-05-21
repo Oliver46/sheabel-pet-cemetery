@@ -1,0 +1,45 @@
+	
+		.weatherData{
+			line-height:70%;
+			padding-left: 40px;
+		}
+		#dateBox{
+			text-align: justify;
+			margin: auto;
+			width: 100%;
+			height: 34px;
+			background-color: #E12716;
+			padding-bottom: 8px;
+			box-sizing: border-box;
+		}
+		#day{
+			margin: auto;
+			display: inline-block;
+			width: 120px;
+			margin-left: 40px;
+			margin-top: 5px;
+			font-weight: bold;
+			font-size: 18px;
+			color: white;
+			text-align: center;
+			
+		}
+		#date{
+			margin: auto;
+			display: inline-block;
+			width: 180px;
+			margin-left: 0px;
+			margin-top: 5px;
+			font-weight: bold;
+			font-size: 18px;
+			color: white;
+			text-align: center;
+		}
+	
+		#weatherContainer table{
+			max-width: 100%;
+			margin: auto;
+		}
+		#weatherContainer table td{
+			padding: 8px;
+		}

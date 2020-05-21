@@ -1,0 +1,472 @@
+/* start Header */
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	width: 100%;
+	height: 100px;
+	background: white;
+	box-shadow: 1px 1px 5px #000;
+	position:fixed;
+	z-index: 100;
+}
+/* This is the width of the Navigation bar (logo and nav links)*/
+nav ul li{
+	display: inline;
+}
+nav ul{
+	margin: auto;
+	text-align: center;
+}
+header nav ul li a{
+	color: red;
+	display: block;
+	padding:20px;
+	font-size: 22px;
+	font-family: Helvetica;
+	border-bottom: 5px solid transparent;
+}
+#navigationBar{
+	margin-top: 10px;
+	box-sizing: border-box;
+}
+.navbar{
+	max-width: 100%;
+    height: 100px;
+    font-size: 20px;
+	/*border-bottom-color: #173A57;*/
+	background: #0B3F57;
+	color: white;
+	margin: auto;
+}
+       
+#bs-example-navbar-collapse-1{
+    margin-top: 10px;
+}
+
+#navigationBar a:link {color:white; text-decoration:none;
+    background: #0B3F57;text-shadow: 1px 1px 1px #000;}
+#navigationBar a:visited {color:white; text-decoration:none;
+    background: #0B3F57;text-shadow: 1px 1px 1px #000;}
+#navigationBar a:hover   {color:red; text-decoration:none;
+    background: #0B3F57;border-bottom: 2px solid #FFF;
+	text-shadow: 1px 1px 1px white;}
+#navigationBar a:active  {color:red; text-decoration:none;
+    background: #0B3F57;text-shadow: 1px 1px 1px #000;}
+
+.navbar-toggle{
+    margin-top: 25px;
+}
+.active{
+	text-decoration:none;
+	background: #0B3F57;
+	border-bottom: 2px solid #FFF;
+}
+	
+	
+/* End Header */
+
+/*Font from goole font*/
+@font-face{
+	font-family: raleway;
+	src: url(../font/Raleway-Regular.ttf);
+}
+*Font from goole font*/
+@font-face{
+	font-family: Lato;
+	src: url(../font/Lato-Light.ttf);
+}
+
+/* Head Image */
+#SheabelImage{
+	background: url(../image/background1.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+}
+	
+/* Home first section */
+.wrapper1{
+	width: 85%;
+	margin: auto;
+}
+.home, .service, .contact{
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+.home h1, .service h1, .about h1, .contact h1{
+	text-align: center;
+	color:  #E12716;
+	letter-spacing: 4px;
+	text-shadow: 0px 0px 2px white;
+}
+.home h2, .service h2{
+	font-family: raleway;
+	color: black;
+	font-size: 36px;
+	text-align: center;
+	letter-spacing: 2px;
+	font-weight: bold;
+	line-height:150%;
+}
+.home h3{
+	text-indent: 50px;
+	font-family: 'Lato', sans-serif;
+	 line-height:200%;
+	color: #557997;
+	padding-top: 20px;
+	font-weight: lighter;
+}
+
+/* Home second section */
+.wrapper2{
+	width: 100%;
+	margin: auto;
+	background-color: #0B3F57;
+}
+.column-division{
+	width: 80%;
+	margin: auto;
+	display: block;
+}
+
+table{
+	width: 100%;
+}
+
+.tabla h2{
+	color: white;
+	text-align: center;
+	text-shadow: 1px 1px 1px #E12716;
+	padding-bottom: 40px;
+}
+.tabla tr th{
+	background-color: #E12716;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	font-size: 18px;
+}
+.tabla tr td{
+	text-align: center;
+	color: white;
+	padding: 10px;
+}
+.shortSide{
+	display: inline-block;
+	width: 40%;
+	margin-left: 40px;
+	margin-bottom: 50px;
+}
+
+/* About Section */
+
+.wrapper3{
+	width: 100%;
+	height: 500px;
+	padding-top: 100px;
+	margin: 0 auto;
+}
+/*
+.about h1{
+	text-align: center;
+	color: red;	
+}*/
+.column-container{
+	width: 90%;
+	margin: 0 auto;
+}
+.columnX3about{
+	width: 33.33%;
+	float: left;
+	padding: 20px 20px;
+	box-sizing:border-box;
+	margin: auto;
+}
+.columnX3about img{
+	width: 100%;
+	box-sizing:border-box;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.columnX3about p{
+	font-family: 'Lato', sans-serif;
+	font-size: 22px;
+	color: #0E3F56;
+	letter-spacing: 2px;
+	line-height: 150%;
+}
+
+/* History Section */
+.wrapper4{
+	clear: both;
+	width: 100%;
+	background: url(../image/background_2.png);
+	background-attachment: contain;
+	background-position:center;
+	background-size: cover;
+	box-sizing:border-box;
+}
+.history h1{
+	padding-top: 30px;
+	text-align: center;
+	color:  #E12716;
+	text-shadow: 0px 0px 2px white;
+}
+
+.history-column-container{
+	padding-top: 30px;
+	margin: auto;
+	width: 90%;
+}
+.history-column-container p{
+	color: white;
+	font-size: 20px;
+	text-shadow: 0px 0px 5px black;
+	letter-spacing: 2px;
+}
+.columnX2about{
+	width: 45%;
+	float: left;
+	border: 5px solid white;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+.columnX2about img{
+	width: 100%;
+	margin:0 auto;
+}
+.articleParagraph{
+	padding: 20px 20px;
+}
+
+
+/* Service Section */
+.TablesWrapper{
+	width: 100%;
+	margin: auto;
+	padding-top: 90px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	
+}
+.tableX2{
+	float: left;
+	width: 50%;
+	margin-top: 20px;
+	cursor: default;
+	padding-bottom: 50px;
+}
+.icono-plan{
+	color: white;
+	padding-top: 20px;
+	font-size: 4em;
+	padding-bottom: 10px;
+	
+}
+.box-plan{
+	
+	background-color: #0E3F56;
+	margin: 2px;
+}
+.box-plan h4{
+	color: #E12716;
+	padding-bottom: 10px;
+	font-size: 30px;
+	letter-spacing: 2.5px;
+}
+.list{
+	margin: auto;
+	width: 340px;
+	padding-left: 0px;
+	line-height: 200%;
+	font-size: 18px;
+	letter-spacing: 2.5px;
+	padding-bottom: 30px;
+	color: #3b5998;
+}
+.list p{
+	text-align: left;
+	color: #fff;
+}
+
+/* Contact Section */
+.info{
+	margin: auto;
+	width: 580px;
+	border: 5px solid #fff;	
+	box-shadow: 1px 1px 5px #000;
+}
+.contact h2{
+	font-family: raleway;
+	font-size: 36px;
+}
+.contactBackground{
+	background: url(../image/background_5.png);
+	background-attachment: content;
+	background-size: cover;
+	background-position:center;
+}
+#owner{
+	padding-top: 40px; 
+	text-align: center;
+	padding-bottom: 20px;
+	letter-spacing: 2px;
+}
+.info p{
+	font-family: 'Lato', sans-serif;
+	font-size: 22px;
+	color: #0E3F56;
+	text-align: justify;
+	padding: 10px 40px;
+}
+.information, .contact h2{
+	color: white;
+	text-shadow: 1px 1px 5px black;
+}
+
+.infoLabel{
+	color: #E12716;
+	text-shadow: 0px 0px 1px white;
+}
+#boxContact{
+	margin: auto;
+	width: 380px;
+}
+
+/* Map*/
+iframe{
+	margin-bottom: -5px;
+}
+#map{
+	width: 100%;
+	padding 0 20px;
+}
+
+/* Footer */
+footer{
+	clear: both;
+	width: 100%;
+	height: 200px;
+	margin: 0 auto;
+	text-align: center;
+	background: rgba(11,63,87,.97);	
+	padding-top: 70px;
+	padding-bottom: 70px;
+	
+}
+footer p{
+	color:#FFF;
+}
+footer .pushRight{
+	margin-left:25px;
+}
+
+/* - - Start Responsive Design - - */
+	/* Mobil Device*/
+
+@media only screen and (min-width : 100px) and (max-width : 570px) and (-webkit-min-device-pixel-ratio: 1){
+	#SheabelImage{
+		display: none;
+	}
+	.wrapper1{
+		padding-top: 100px;
+	}
+	.wrapper2{
+		width: 100%;
+	}
+	.shortSide{
+		width: 100%;	
+		margin-left: 0px;
+	}
+	.columnX3about{
+		width: 100%;
+	}
+	.columnX2about{
+		width: 100%;
+	}
+	.tableX2{
+		width: 100%;
+	}
+	.list p{
+		padding: 10px 10px;
+		font-size: 16px;
+	}
+	.info{
+	width: 320px;
+	}
+	.info p{
+		font-size: 16px;
+	}
+	.contact h2{
+	font-size: 32px;
+	}
+	iframe{
+		width: 100%;
+	}
+	#dateBox{
+		
+	}
+	#dateBox #day{
+		float: left;
+		font-size: 14px;
+	}
+	#dateBox #date{
+		width: 38%;
+		float: left;
+		font-size: 14px;
+	}
+
+}
+	/* Tablet Device*/
+@media only screen and (min-width : 571px) and (max-width : 1074px) and (-webkit-min-device-pixel-ratio: 1){
+	/* start home*/
+	#SheabelImage{
+		display: none;
+	}
+	.wrapper1{
+		padding-top: 100px;
+	}
+	
+	.shortSide{
+		width: 100%;
+		padding-top: 20px;
+	}
+	
+	.tabla h2{
+		margin: auto;
+		text-align: center;
+		
+	}
+	/* end home*/
+	
+	/* start about*/
+	.columnX3about{
+		width: 100%;
+	}
+	.columnX2about{
+		width: 100%;
+	}
+	/* end about*/
+	
+	/* start services*/
+	.tableX2{
+		width: 100%;
+	}
+	.box-plan h4{
+		font-size: 36px;
+	}
+	/* end services*/
+	
+	.TablesWrapper{
+		width: 100%;
+	}
+}
+		
+
